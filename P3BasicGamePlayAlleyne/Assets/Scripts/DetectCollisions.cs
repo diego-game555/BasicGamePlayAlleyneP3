@@ -29,6 +29,7 @@ public class DetectCollisions : MonoBehaviour
         {
             other.GetComponent<AnimalHunger>().FeedAnimal(1);
             Destroy(gameObject);
+            Destroy(other.gameObject);
             
         }
     }

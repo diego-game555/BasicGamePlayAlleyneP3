@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 4857742162115351611}
   - component: {fileID: -6730162165901641332}
   - component: {fileID: 6261943974755022079}
+  - component: {fileID: -7280656350646913730}
   m_Layer: 0
   m_Name: Pizza
-  m_TagString: Animal
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,3 +161,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4597009, y: 0.13234863, z: 0.55363166}
   m_Center: {x: 0, y: 0, z: -0.0000001937151}
+--- !u!114 &-7280656350646913730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4905068247169960088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe0bfab9bb645449864a641dfff5407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

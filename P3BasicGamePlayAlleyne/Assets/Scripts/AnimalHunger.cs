@@ -17,7 +17,7 @@ public class AnimalHunger : MonoBehaviour
         hungerSlider.value = 0;
         hungerSlider.fillRect.gameObject.SetActive(false);
 
-        gameManager = gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
