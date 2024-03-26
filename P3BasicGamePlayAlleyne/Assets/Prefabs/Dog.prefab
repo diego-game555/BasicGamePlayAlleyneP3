@@ -881,7 +881,6 @@ GameObject:
   - component: {fileID: 8933291635616125142}
   - component: {fileID: -4973496855636301004}
   - component: {fileID: 5668241675505110551}
-  - component: {fileID: 4133221937678553575}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Animal
@@ -1021,20 +1020,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffe0bfab9bb645449864a641dfff5407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4133221937678553575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757209388436487115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba5a4b1c360e8ef4da7c4fa4af3b763d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hungerSlider: {fileID: 98666955465557213}
-  amountToBeFed: 1
 --- !u!1 &1897489733471023186
 GameObject:
   m_ObjectHideFlags: 0
@@ -6372,17 +6357,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a65ba4813d3708479d3ecd86ccebadd, type: 3}
---- !u!114 &98666955465557213 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8398710605318848754, guid: 1a65ba4813d3708479d3ecd86ccebadd, type: 3}
-  m_PrefabInstance: {fileID: 8489496260595549231}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &7604658347456153644 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2042826253213060099, guid: 1a65ba4813d3708479d3ecd86ccebadd, type: 3}
